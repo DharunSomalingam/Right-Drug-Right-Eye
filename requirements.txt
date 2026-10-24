@@ -1,0 +1,8 @@
+# --backend hf (thesis setup). Install the torch build that matches your GPU,
+# e.g. pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch>=2.1
+transformers>=4.43
+accelerate>=0.30
+
+# --backend ollama only
+ollama>=0.3
