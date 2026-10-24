@@ -1,0 +1,22 @@
+# Clinical data and annotations are NOT part of this repository.
+# data/ holds the Label Studio export and preprocessed notes (gold labels);
+# results/ and logs/ hold model outputs and detail.csv (also gold labels).
+data/
+results/
+logs/
+*.jsonl
+ls_export*.json
+project-*.json
+
+# Python
+__pycache__/
+*.pyc
+*.bak
+.venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+__MACOSX/
